@@ -31,10 +31,10 @@ class FileStorage:
 
     def handle_import(self):
         """Function to handler circular import"""
-        from models.base_model import BaseModel
-
+        #from models.base_model import BaseModel
+        import models.base_model
         cls_name = {
-            "BaseModel": BaseModel
+            "BaseModel": models.base_model.BaseModel
         }
         return (cls_name)
 

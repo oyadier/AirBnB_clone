@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """A `Place` module of users"""
 from models.base_model import BaseModel
-from models import User
-from models import Amenity
 
 
 class Place(BaseModel):

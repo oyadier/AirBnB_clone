@@ -2,5 +2,12 @@
 """A `State` module of users"""
 from models import BaseModel
 
+
 class State(BaseModel):
-    name = "name"
+    """Class attribute of the state
+        Args:
+            name (string): state's name
+        Return:
+            state (object): an obj of the state
+    """
+    name = ""

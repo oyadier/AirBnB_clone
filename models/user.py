@@ -13,7 +13,7 @@ class User(BaseModel):
             last_name (string): user's last name
 
         Return:
-            obj (object): the object of a newly create user
+            user (object): the object of a newly create user
     """
     email = ""
     password = ""

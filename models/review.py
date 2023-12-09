@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""This is a `Review Module` for reviewing places"""
-from models import Place
-from models import User
+"""This is a `Review Module` for reviewing places"""r
 from models.base_model import BaseModel
 
 
@@ -16,7 +14,6 @@ class Review(BaseModel):
         Return:
             review (string): the commented text
     """
-
     place_id = ""
     user_id = ""
     text = ""

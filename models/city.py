@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """A `City` module of of the state"""
 from models.base_model import BaseModel
-from models import City
 
 
 class City(BaseModel):

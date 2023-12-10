@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is a `Review Module` for reviewing places"""r
+"""This is a `Review Module` for reviewing places"""
 from models.base_model import BaseModel
 
 

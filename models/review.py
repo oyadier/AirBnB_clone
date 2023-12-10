@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """This is a `Review Module` for reviewing places"""
-from models import Place
-from models import User
 from models.base_model import BaseModel
 
 

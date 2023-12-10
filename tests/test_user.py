@@ -20,7 +20,7 @@ class TestUser(unittest.TestCase):
         self.assertTrue("last_name" in user.__dir__())
         self.assertTrue("email" in user.__dir__())
         self.assertTrue("password" in user.__dir__())
-    
+
     def test_attribute_type1(self):
         """test string type"""
         user = User()

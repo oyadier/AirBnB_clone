@@ -14,7 +14,6 @@ class Review(BaseModel):
         Return:
             review (string): the commented text
     """
-
     place_id = ""
     user_id = ""
     text = ""

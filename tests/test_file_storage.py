@@ -95,9 +95,5 @@ class testFileStorage(unittest.TestCase):
             Tests that nothing happens when file.json does not exists
             and reload is called
         '''
-
-        try:
-            self.storage.reload()
-            self.assertTrue(True)
-        except:
-            self.assertTrue(False)
+        self.storage.reload()
+        self.assertTrue(True)

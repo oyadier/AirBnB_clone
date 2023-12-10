@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """A `Place` module of users"""
 from models.base_model import BaseModel
-from models import User
-from models import Amenity
 
 
 class Place(BaseModel):
@@ -30,4 +28,4 @@ class Place(BaseModel):
     price_by_night = 0
     latitude = 0.0
     longitude = 0.0
-    amenity_ids = {}
+    amenity_ids = []

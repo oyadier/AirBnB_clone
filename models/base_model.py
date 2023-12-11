@@ -49,8 +49,9 @@ class BaseModel:
         storage.save()
 
     def to_dict(self):
+        """Function that returns a dict with key/value pairs of instance"""
         key = self.__dict__.copy()
         key['__class__'] = type(self).__name__
         key['created_at'] = key["created_at"].isoformat()
         key['updated_at'] = key["updated_at"].isoformat()
-        return key
+        return (key)

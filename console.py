@@ -24,6 +24,7 @@ class_home = {
     "State": State
 }
 
+
 class HBNBCommand(cmd.Cmd):
 
     """Class that contains the entry point of the command interpreter"""

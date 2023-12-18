@@ -24,6 +24,7 @@ class_home = {
     "State": State
 }
 
+
 class HBNBCommand(cmd.Cmd):
 
     """Class that contains the entry point of the command interpreter"""
@@ -158,7 +159,8 @@ class HBNBCommand(cmd.Cmd):
             return
 
         cmdPattern = "^([A-Za-z]+)\.([a-z]+)\(([^(]*)\)"
-        paramsPattern = """^"([^"]+)"(?:,\s*(?:"([^"]+)"|(\{[^}]+\}))(?:,\s*(?:("?[^"]+"?)))?)?"""
+        paramsPattern = """^"([^"]+)"(?:,\s*(?:"([^"]+)"|(\{[^}]+\}))
+        (?:,\s*(?:("?[^"]+"?)))?)?"""
         m = re.match(cmdPattern, line)
         if not m:
             super().default(line)

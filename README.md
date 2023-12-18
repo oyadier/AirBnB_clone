@@ -1,4 +1,4 @@
-0x00. AirBnB clone - The console
+0x00. AirBnB clone  and Web Static- The console
 
 The Author of this project is Oyadier and Mussa fine guys
 

@@ -1,7 +1,11 @@
 AirBnB clone - Web static
 
+<<<<<<< HEAD
 
 This project explains and demonstrate the following:
+=======
+This project will describe and demonstrate the following requirements:
+>>>>>>> 7cd8bf4981fb47b0eeeb7875e1ae926699c43701
 
 
     What is HTML
@@ -18,10 +22,16 @@ This project explains and demonstrate the following:
     How to compute CSS Specificity Value
     What are Box properties in CSS
 
+<<<<<<< HEAD
 
 TASKS:
 
 0. Inline styling
+=======
+TASKS
+
+0. Inline styling:
+>>>>>>> 7cd8bf4981fb47b0eeeb7875e1ae926699c43701
 
 This is an HTML page that displays a header and a footer.
 
@@ -48,6 +58,7 @@ Requirements:
     You are not allowed to use the style tag in the head tag
     Use inline styling for all your tags
 
+<<<<<<< HEAD
 1. Head styling 
 
 This is an HTML page that displays a header and a footer by using the style tag in the head tag (same as 0-index.html)
@@ -60,3 +71,5 @@ Requirements:
     You must use the style tag in the head tag
 
 The layout must be exactly the same as 0-index.html
+=======
+>>>>>>> 7cd8bf4981fb47b0eeeb7875e1ae926699c43701
